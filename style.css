@@ -160,6 +160,13 @@ section {
     gap: 5rem;
     height: 80vh;
 }
+.profile-pic {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 
 .section_pic-container {
     display: flex;
@@ -203,7 +210,6 @@ section {
     cursor: pointer;
     height: 2rem;
 }
-
 
 
 /* buttons */
@@ -307,6 +313,8 @@ section {
     font-size: 1,75rem;
     margin-bottom: 2rem;
 }
+
+
 
 .about-details-container {
     display: flex;
